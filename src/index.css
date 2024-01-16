@@ -27,10 +27,6 @@
     font-weight: 500 !important;
   }
   
-  .MuiTypography-root {
-    font-family: circularStd !important;
-  }
-  
   .text-center {
     text-align: center !important;
   }
@@ -44,15 +40,6 @@
   }
   .light-text {
     color: var(--light-text) ;
-  }
-  
-  
-  .d-block {
-    display: block ;
-  }
-  
-  .normal-text {
-    text-transform: none !important;
   }
   
   .flex {
@@ -85,10 +72,3 @@
     align-items: flex-start;
   }
   
-  .MuiTab-root {
-    text-transform: none !important;
-  }
-  
-  .MuiButtonBase-root  {
-    text-transform: none !important;
-  }
