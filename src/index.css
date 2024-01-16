@@ -72,3 +72,9 @@
     align-items: flex-start;
   }
   
+  .MuiInputBase-root {
+    border-radius: 11px !important;
+  }
+  input {
+    padding: 12px 16px !important;
+  }

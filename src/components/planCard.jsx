@@ -4,7 +4,6 @@ import React, { useState } from "react";
 import { Done } from "@mui/icons-material";
 import {
   Box,
-  Button,
   Card,
   List,
   ListItem,
@@ -27,12 +26,13 @@ const PlanCard = () => {
         sx={{
           py: 4,
           background: "var(--light-grey)",
-          minHeight: { xs: "100%", md: "88vh" },
           height: "100%",
         }}
-        className="flex align-items-center"
       >
-        <Box sx={{ maxWidth: "26rem", px: 2, margin: "auto", height: "100%" }}>
+        <Box
+          sx={{ maxWidth: "26rem", px: 2, margin: "auto", height: "100%" }}
+          className="flex align-items-center"
+        >
           <Card
             sx={{
               boxShadow: "none",
@@ -41,7 +41,7 @@ const PlanCard = () => {
               border: "1px solid #ABABAB",
               px: 3.5,
               py: 3.5,
-              backgroundColor: "#F7F7F7",
+              backgroundColor: "#fff",
               cursor: "pointer",
               "&:hover": {
                 backgroundColor: "#F7F7F7",
@@ -99,7 +99,6 @@ const PlanCard = () => {
                           fontWeight: "500 !iMPORTANT",
                         },
                       }}
-                      // secondary={secondary ? "Secondary text" : null}
                     />
                   </ListItem>
                 ))}
