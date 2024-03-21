@@ -1,5 +1,7 @@
 # React Payment Form
 
+![File Uploader App](/public/assets/svg/preview.png)
+
 A sleek React payment form with Material-UI, React.js, Yup, and Formik for seamless payment processing.
 
 ## 🚀 Live Demo
